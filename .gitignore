@@ -9,24 +9,24 @@ application/logs/*
 !application/*/.htaccess
 
 composer.lock
+/vendor/
+
 tests/mocks/database/ci_test.sqlite
+/tests/tests/
+/tests/results/
 
 user_guide_src/build/*
 user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
-/vendor/
 
-# IDE Files
-#-------------------------
 /nbproject/
-.idea/*
+/.idea/*
 
-## Sublime Text cache files
 *.tmlanguage.cache
 *.tmPreferences.cache
 *.stTheme.cache
 *.sublime-workspace
 *.sublime-project
-/tests/tests/
-/tests/results/
+
+application/config/database.php
