@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Cpu_model extends CI_Model {
+class Cpu_model_oracle extends CI_Model {
 
     public function __construct() {
         parent::__construct();
@@ -16,8 +16,8 @@ class Cpu_model extends CI_Model {
     }
 
     public function get_hot_items() {
-        // DB 구조에 맞게 choice_cpu 기준으로 인기순 정렬
-        $query = $this->db->query("SELECT * FROM cpu ORDER BY choice_cpu DESC LIMIT 5");
+        // DB 구조에 맞게 choice_cpu 기준으로 인기순 정렬 (Oracle FETCH FIRST)
+        $query = $this->db->query("SELECT * FROM cpu ORDER BY choice_cpu DESC FETCH FIRST 5 ROWS ONLY");
         return $query->result();
     }
 }
