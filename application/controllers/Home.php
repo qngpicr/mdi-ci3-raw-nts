@@ -10,12 +10,12 @@ class Home extends CI_Controller {
         // $this->load->model('Device_model');
 
         // MySQL 버전
-        // $this->load->model('mysql/Cpu_model_mysql', 'Cpu_model');
-        // $this->load->model('mysql/Device_model_mysql', 'Device_model');
+        $this->load->model('mysql/Cpu_model_mysql', 'Cpu_model');
+        $this->load->model('mysql/Device_model_mysql', 'Device_model');
 
         // PostgreSQL 버전
-        $this->load->model('psql/Cpu_model_psql', 'Cpu_model');
-        $this->load->model('psql/Device_model_psql', 'Device_model');
+        // $this->load->model('psql/Cpu_model_psql', 'Cpu_model');
+        // $this->load->model('psql/Device_model_psql', 'Device_model');
 
         // Oracle 버전
         // $this->load->model('oracle/Cpu_model_oracle', 'Cpu_model');
