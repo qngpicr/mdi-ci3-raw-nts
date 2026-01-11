@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 // 포트 기반
 // $config['base_url'] = 'http://localhost:9103/mdi-ci3-raw-nts/';
-$config['base_url'] = 'http://localhost:9103/';
+$config['base_url'] = 'http://localhost:9202/';
 
 // 서브도메인 기반
 // $config['base_url'] = 'http://ci3.localhost/mdi-ci3-raw-nts/';

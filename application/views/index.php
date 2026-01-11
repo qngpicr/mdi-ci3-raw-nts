@@ -2,11 +2,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="<?php echo base_url('assets/css/main_header.css'); ?>">
-<link rel="stylesheet" href="<?php echo base_url('assets/css/user.css'); ?>">
-<link rel="stylesheet" href="<?php echo base_url('assets/css/index/index_body_index.css'); ?>">
-<link rel="stylesheet" href="<?php echo base_url('assets/css/index/index-slick-cpu.css'); ?>">
-<link rel="stylesheet" href="<?php echo base_url('assets/css/index/index-slick-device.css'); ?>">
+<link rel="stylesheet" href="<?php echo base_url('assets-ci3/css/main_header.css'); ?>">
+<link rel="stylesheet" href="<?php echo base_url('assets-ci3/css/user.css'); ?>">
+<link rel="stylesheet" href="<?php echo base_url('assets-ci3/css/index/index_body_index.css'); ?>">
+<link rel="stylesheet" href="<?php echo base_url('assets-ci3/css/index/index-slick-cpu.css'); ?>">
+<link rel="stylesheet" href="<?php echo base_url('assets-ci3/css/index/index-slick-device.css'); ?>">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
@@ -129,12 +129,12 @@
     </div>
   </div>
 
-<script src="<?php echo base_url('assets/js/jquery-3.5.0.js'); ?>"></script>
-<script src="<?php echo base_url('assets/js/jquery-migrate-3.5.0.js'); ?>"></script>
+<script src="<?php echo base_url('assets-ci3/js/jquery-3.5.0.js'); ?>"></script>
+<script src="<?php echo base_url('assets-ci3/js/jquery-migrate-3.5.0.js'); ?>"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="<?php echo base_url('assets/js/slider-init.js'); ?>"></script>
-<script src="<?php echo base_url('assets/js/hotcpus.js'); ?>"></script>
-<script src="<?php echo base_url('assets/js/hotdevices.js'); ?>"></script>
+<script src="<?php echo base_url('assets-ci3/js/slider-init.js'); ?>"></script>
+<script src="<?php echo base_url('assets-ci3/js/hotcpus.js'); ?>"></script>
+<script src="<?php echo base_url('assets-ci3/js/hotdevices.js'); ?>"></script>
 
 </body>
 </html>
